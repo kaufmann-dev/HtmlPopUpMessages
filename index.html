@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pop-up Messages</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="popup.css" rel="stylesheet" type="text/css">
+    <link href="amogus.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Pop-up Messages</h1>
+
+        <button onclick="AddAlert('Title', 'Alert-message')">New Alert-message</button>
+        <button onclick="AddError('Error-message')">New Error-message</button>
+
+        <h3>Files you need to include:</h3>
+        <ul>
+            <li>popup.css</li>
+            <li>popup.js</li>
+        </ul>
+
+        <h3>Dependencies:</h3>
+        <ul>
+            <li>jQuery</li>
+        </ul>
+
+        <h3>Syntax:</h3>
+        <h4>Alert-message:</h4>
+        <code>AddAlert('Title', 'Alert-message');</code>
+        <h4>Error-message:</h4>
+        <code>AddError('Error-message');</code>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>
